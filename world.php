@@ -15,7 +15,7 @@ echo '</ul>';
 
 $LOOKUP = $_GET['country']
 
-$results = mysql_query("SELECT * FROM countries WHERE name LIKE '%$country%';");
+$results = mysql_query("SELECT * FROM countries WHERE name LIKE '%$lookup%';");
 print $results;
 
 while ($row = mysql_fetch_array($results)) {

@@ -1,0 +1,34 @@
+body{
+  font: normal 14px Roboto,arial,sans-serif;
+  font-size: 17px;
+  background-image: url("https://thumbs.dreamstime.com/z/3d-database-19909914.jpg");
+}
+
+h1{
+  border:0 solid #fff; 
+  border-bottom-width:1px;
+  padding-bottom:10px;
+  text-align: center;
+}
+
+
+#controls{
+  margin : auto;
+  padding: 10px;
+  position: fixed;
+}
+
+#country{
+  border: 2px solid #a1a1a1;
+  padding: 10px 10px; 
+  background: #dddddd;
+  border-radius: 25px;
+}
+
+#Lookup{
+  background:  #f7f7f7;
+  border: 3px solid #dddddd;
+  padding: 2px 2px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
